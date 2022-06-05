@@ -1,0 +1,25 @@
+{
+  "name": "mern-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node config/seeds.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "",
+    "bcrypt": "",
+    "express": "",
+    "graphql": "",
+    "jsonwebtoken": "",
+    "mongoose": ""
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
